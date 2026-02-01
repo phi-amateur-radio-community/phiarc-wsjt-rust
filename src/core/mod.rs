@@ -2,12 +2,5 @@
 // Licensed under the GPLv3 or later License.
 // See LICENSE file for details.
 //
-// src/lib.rs
-// Root file of library.
-
-mod api;
-mod core;
-mod util;
-
-#[cfg(test)]
-mod tests {}
+// src/core/mod.rs
+// Core code module.
