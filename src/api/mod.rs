@@ -4,3 +4,6 @@
 //
 // src/api/mod.rs
 // API code module.
+
+#[cfg(feature = "ftx")]
+mod ftx;

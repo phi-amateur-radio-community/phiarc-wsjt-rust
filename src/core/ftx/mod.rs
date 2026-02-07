@@ -5,5 +5,4 @@
 // src/core/mod.rs
 // Core code module.
 
-#[cfg(feature = "ftx")]
-pub(crate) mod ftx;
+mod encode;

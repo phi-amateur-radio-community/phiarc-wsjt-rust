@@ -2,8 +2,7 @@
 // Licensed under the GPLv3 or later License.
 // See LICENSE file for details.
 //
-// src/core/mod.rs
-// Core code module.
+// src/util/ftx/mod.rs
+// FTx tools module.
 
-#[cfg(feature = "ftx")]
-pub(crate) mod ftx;
+pub mod hash;

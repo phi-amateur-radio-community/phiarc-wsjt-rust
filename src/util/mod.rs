@@ -4,3 +4,6 @@
 //
 // src/util/mod.rs
 // Common tools module.
+
+#[cfg(feature = "ftx")]
+pub mod ftx;
