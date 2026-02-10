@@ -6,7 +6,7 @@
 // Encoder module of FTx.
 
 mod base;
+mod entag;
 mod spec;
 
-pub use spec::EncodeType;
-pub use spec::encode;
+pub(super) use entag::tag_encode;

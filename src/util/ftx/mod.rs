@@ -5,4 +5,5 @@
 // src/util/ftx/mod.rs
 // FTx tools module.
 
+pub mod bits;
 pub mod hash;

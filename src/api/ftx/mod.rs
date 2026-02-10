@@ -2,8 +2,8 @@
 // Licensed under the GPLv3 or later License.
 // See LICENSE file for details.
 //
-// src/core/mod.rs
-// Core code module.
+// src/api/ftx/mod.rs
+// API of FTx.
 
-mod encode;
-pub mod tag;
+mod common;
+mod msg;
