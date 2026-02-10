@@ -6,7 +6,7 @@
 // Encode the tag.
 
 use super::super::tag::*;
-use super::spec::*;
+use super::enstr::*;
 use crate::util::ftx::bits::bits_extend;
 use bitvec::prelude::{BitVec, Msb0};
 use std::ops::{BitAnd, Shr};

@@ -5,7 +5,7 @@
 // src/core/ftx/encode/spec.rs
 // Specific coding method.
 
-use super::base::{CharEncodeType, char_encode, char_long_encode};
+use super::enchar::{CharEncodeType, char_encode, char_long_encode};
 
 const ALL13_TYPES: [CharEncodeType; 13] = [CharEncodeType::Char38; 13];
 const CQ_CONTENT4: [CharEncodeType; 4] = [CharEncodeType::Char27; 4];

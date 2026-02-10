@@ -5,8 +5,8 @@
 // src/core/ftx/encode/mod.rs
 // Encoder module of FTx.
 
-mod base;
+mod enchar;
+mod enstr;
 mod entag;
-mod spec;
 
 pub(super) use entag::tag_encode;
