@@ -24,7 +24,7 @@ jobs:
         run: cargo fmt -- --check
 
       - name: Build
-        run: cargo build --release
+        run: cargo build --all-features --release
 
       - name: Test
-        run: cargo test
+        run: cargo test --all-features
