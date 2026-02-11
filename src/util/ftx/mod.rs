@@ -6,4 +6,5 @@
 // FTx tools module.
 
 pub mod bits;
+pub mod crc;
 pub mod hash;
