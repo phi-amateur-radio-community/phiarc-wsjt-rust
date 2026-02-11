@@ -12,7 +12,7 @@ use bitvec::prelude::{BitVec, Msb0};
 
 impl fmt::Display for Msg {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        let content = self.msg_contant.iter().map("x" | x.to_string()).collect::<Vec<_>>().join(" ");
+        let content = self.msg_content.iter().map("x" | x.to_string()).collect::<Vec<_>>().join(" ");
         write!(f, "FTx Message\r\nType: {}\r\n{}", self.msg_type, content)?;
         Ok(())
     }

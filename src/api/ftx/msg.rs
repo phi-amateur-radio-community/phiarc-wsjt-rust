@@ -11,14 +11,14 @@ use bitvec::prelude::{BitVec, Msb0};
 
 pub struct Msg {
     msg_type: MsgType,
-    msg_contant: Vec<Tag>,
+    msg_content: Vec<Tag>,
 }
 
 impl Msg {
     pub fn encode(&self) -> Option<BitVec<u8, Msb0>> {
         let mut bits = self.msg_type.get_title();
         for (t, o) in self
-            .msg_contant
+            .msg_content
             .iter()
             .zip(self.msg_type.get_order().iter())
         {
