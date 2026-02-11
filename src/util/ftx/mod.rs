@@ -8,3 +8,6 @@
 pub mod bits;
 pub mod crc;
 pub mod hash;
+
+#[cfg(test)]
+mod test;
